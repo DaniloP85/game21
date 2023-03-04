@@ -115,9 +115,8 @@ class MainActivity : AppCompatActivity() {
                     this,
                     "Cuidado, dependendo da carta que comprar você poderá perder"
                 )
-            }
-            else -> {
-                CustomToast.default(this, "Você ainda pode jogar com segurança")
+            } else -> {
+                CustomToast.info(this, "Você ainda pode jogar com segurança")
             }
         }
         controlarBotoes()
